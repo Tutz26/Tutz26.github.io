@@ -72,6 +72,7 @@
   }
   .main-link:hover i {
     opacity: 1;
+    color: #D94086;
   }
 
   .v-align-m {
@@ -86,7 +87,8 @@
     bottom: 50%;
     width: 2px;
     height: 2px;
-    background-color: #362f54;
+    /* background-color: #8264A7; */
+    background-color: #44318D;
     border: none;
     border-radius: 100%;
     cursor: pointer;

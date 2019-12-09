@@ -54,7 +54,7 @@
 } */
 
 .bg-main-color {
-    background-color: #362f54;
+    background-color: #2A1A3C;
 }
 
 @media (max-width: 768px) {
@@ -102,4 +102,31 @@ img.zoom {
 
 .d-table-cell {
     display: table-cell;
+}
+
+@font-face {
+    font-family: RalewayRegular;
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: RalewayBold;
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: SofiaProLight;
+    src: url(../fonts/SofiaPro-Light.otf);
+}
+
+.page-title {
+    font-family: 'RalewayRegular';
+}
+
+.page-title-bold {
+    font-family: 'RalewayBold';
+}
+
+.page-content {
+    font-family: 'SofiaProLight';
 }
