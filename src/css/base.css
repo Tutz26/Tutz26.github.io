@@ -6,6 +6,10 @@
     padding-top: 75px;
 }
 
+.p-t-50 {
+    padding-top: 50px;
+}
+
 .h-200 {
     height: 200px;
 }
@@ -90,4 +94,12 @@ img.zoom {
     width: 15% !important;
     height: 40% !important;
     top: 30% !important;
+}
+
+.d-table {
+    display: table;
+}
+
+.d-table-cell {
+    display: table-cell;
 }

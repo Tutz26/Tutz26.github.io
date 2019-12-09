@@ -63,6 +63,37 @@
       opacity: 0.4;
   }
 
+  .main-link p i {
+    opacity: 0;
+  }
+
   .main-link:hover {
     opacity: 0.8;
+  }
+  .main-link:hover i {
+    opacity: 1;
+  }
+
+  .v-align-m {
+    vertical-align: middle;
+  }
+
+  .main-link-button {
+    position: absolute;
+    right: 189px;
+    bottom: 99px;
+    width: 2px;
+    height: 2px;
+    background-color: #362f54;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    outline:none;
+    transition: all 0.3s ease;
+    /* mix-blend-mode: hard-light; */
+    z-index: -1;
+  }
+
+  .main-link:hover .main-link-button {
+    transform: scale(100);
   }
