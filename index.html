@@ -1,15 +1,137 @@
+<!doctype html>
 <html lang="es">
-<head>
-  <meta charset="utf-8">
 
-  <title>Tutz's Portfolio</title>
-  <meta name="description" content="Tutz's Portfolio">
-  <meta name="author" content="Tutz">
+<head>
+	<meta charset="utf-8">
+
+	<title>Tutz's Portfolio</title>
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Tutz's Portfolio">
+	<meta name="author" content="Tutz">
+
+	<!-- CSS -->
+	<!-- Bootstrap 4 -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<!-- Fontawesome -->
+	<link href="./src/fontawesome/css/all.css" rel="stylesheet">
+	<!-- Page CSS -->
+	<link href="./src/css/base.css" rel="stylesheet">
+	<link href="./src/css/index.css" rel="stylesheet">
 
 </head>
 
-<body>
-  <h1>Tutz's Portfolio</h1>
-  <p>Content pending.</p>
+<body class="pt-navbar bg-main-color">
+	<nav class="navbar transparent fixed-top navbar-expand-md navbar-dark bg-dark">
+		<a class="navbar-brand" href="#"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse navbar-dropdown-bg" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link font-weight-bold text-center" href="./index.html">Inicio</a>
+				</li>
+				<!-- <li class="nav-item">
+					<a class="nav-link font-weight-bold text-center" href="./logos.html">Logos</a>
+				</li> -->
+				<li class="nav-item">
+					<a class="nav-link font-weight-bold text-center" href="./3d.html">3D</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link font-weight-bold text-center" href="./pixelart.html">Pixel Art</a>
+				</li>
+				<!-- <li class="nav-item">
+					<a class="nav-link disabled" href="./contact.html" tabindex="-1" aria-disabled="true">Contacto</a>
+				</li> -->
+				<li class="nav-item dropdown">
+					<!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						...
+					</a> -->
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<!-- <a class="dropdown-item" href="/logos.html">Logos</a> -->
+						<a class="dropdown-item" href="/3d.html">3D</a>
+						<a class="dropdown-item" href="/pixelart.html">Pixel Art</a>
+						<!-- <a class="dropdown-item" href="/contact.html">Contacto</a> -->
+					</div>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="fullscreen-bg">
+		<img class="fullscreen-bg__video" src="./src/res/pixelArt/Copia de Tree_bg 2.gif" alt="">
+		<!-- <video loop muted autoplay poster="./src/img/videoframe.jpg" class="fullscreen-bg__video">
+			<source src="./src/videos/backgroundvideo.webm" type="video/webm">
+			<source src="./src/videos/backgroundvideo.mp4" type="video/mp4">
+			<source src="./src/videos/backgroundvideo.ogv" type="video/ogg">
+		</video> -->
+	</div>
+
+	<div class="container m-t-20 m-b-50">
+		<div class="row">
+			<div class="col">
+				<h1 class="text-center text-light">Daniel Gallegos</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<h4 class="text-center text-light text-weight-light">Pixel Art & 3D Artist.</h1>
+			</div>
+		</div>
+		<div class="row d-flex m-t-10">
+			<!-- <div class="col-md-12 col-12 d-flex justify-content-center">
+				<a href="./logos.html">
+					<div class="main-link">
+						<p class="text-center text-center-vertical-200">
+							Logos
+						</p>
+					</div>
+				</a>
+			</div> -->
+			<div class="col-md-4 col-12">
+			</div>
+			<div class="col-md-4 col-12 d-flex justify-content-center m-t-50">
+					<a href="./3d.html">
+						<div class="main-link">
+							<p class="text-center text-light text-center-vertical-200 f-40">
+								3D
+							</p>
+						</div>
+					</a>
+			</div>
+			<div class="col-md-4 col-12 d-flex justify-content-center m-t-50">
+					<a href="./pixelart.html">
+						<div class="main-link">
+							<p class="text-center text-light text-center-vertical-200 f-40">
+								Pixel Art
+							</p>
+						</div>
+					</a>
+			</div>
+		</div>
+	</div>
+	<!-- <div class="div" style="height: 500px">AAAAA</div> -->
+
+	<!-- JS -->
+	<!-- Vendors -->
+	<script src="/src/js/vendors.js"></script>
+	<!-- Jquery Slim -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+		crossorigin="anonymous"></script>
+	<!-- Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<!-- Bootstrap 4 -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+		crossorigin="anonymous"></script>
+
 </body>
+
 </html>

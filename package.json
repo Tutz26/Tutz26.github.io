@@ -1,0 +1,24 @@
+{
+  "name": "Tutz26.github.io",
+  "version": "1.0.0",
+  "description": "Tutz's portfolio page",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tutz26/Tutz26.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tutz26/Tutz26.github.io/issues"
+  },
+  "homepage": "https://github.com/Tutz26/Tutz26.github.io#readme",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
