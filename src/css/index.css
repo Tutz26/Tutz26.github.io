@@ -80,8 +80,10 @@
 
   .main-link-button {
     position: absolute;
-    right: 189px;
-    bottom: 99px;
+    /* right: 189px;
+    bottom: 99px; */
+    right: 50%;
+    bottom: 50%;
     width: 2px;
     height: 2px;
     background-color: #362f54;
