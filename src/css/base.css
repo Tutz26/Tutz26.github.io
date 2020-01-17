@@ -1,3 +1,7 @@
+* {
+    text-decoration: none !important;
+}
+
 .pt-navbar {
     padding-top: 56px;
 }
@@ -20,6 +24,14 @@
 
 .m-t-20 {
     margin-top: 20px;
+}
+
+.m-t-30 {
+    margin-top: 30px;
+}
+
+.m-t-40 {
+    margin-top: 40px;
 }
 
 .m-t-50 {
