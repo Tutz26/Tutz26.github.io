@@ -19,6 +19,6 @@
   "homepage": "https://github.com/Tutz26/Tutz26.github.io#readme",
   "devDependencies": {
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.12"
   }
 }
